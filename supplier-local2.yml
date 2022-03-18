@@ -7,7 +7,7 @@ spring:
   h2:
     console:
       enabled: true
-      path: /h2
+      path: /h22
 
   datasource:
     driver-class-name: org.h2.Driver
