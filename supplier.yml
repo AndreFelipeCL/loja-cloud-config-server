@@ -1,9 +1,8 @@
 spring:
   jpa:
-    hibernate:
-      dialect: org.hibernate.dialect.MariaDB103Dialect
     defer-datasource-initialization: true
     hibernate:
+      dialect: org.hibernate.dialect.MariaDB103Dialect
       ddl-auto: update
 
   datasource:
