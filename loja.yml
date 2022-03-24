@@ -6,7 +6,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://eurekaServer:8761/eureka
       
 spring:
   jpa:
@@ -16,6 +16,12 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://postgresLoja:5433/loja
+    url: jdbc:postgresql://postgresLoja:5432/loja
     username: loja
     password: loja
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://lojaAuth:8088/user
+
