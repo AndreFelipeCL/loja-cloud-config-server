@@ -1,10 +1,6 @@
 server:
   port: 8088
 
-spring:
-  application:
-    name: lojaAuth
-    
 eureka:
   client:
     fetch-registry: true
