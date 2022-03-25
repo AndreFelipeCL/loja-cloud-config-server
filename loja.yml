@@ -16,7 +16,7 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://postgresLoja:5433/loja
+    url: jdbc:postgresql://postgresLoja:5432/loja
     username: loja
     password: loja
 
