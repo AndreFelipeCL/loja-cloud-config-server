@@ -24,3 +24,7 @@ security:
   oauth2:
     resource:
       user-info-uri: http://lojaAuth:8088/user
+      
+zuul:
+  sensitive-headers:
+    - Cookie, Authorization
