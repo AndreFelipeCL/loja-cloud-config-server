@@ -19,3 +19,8 @@ spring:
     url: "jdbc:postgresql://postgresTransportador:5432/transportador"
     username: transportador
     password: transportador
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://lojaAuth:8088/user
