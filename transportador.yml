@@ -16,7 +16,7 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: "jdbc:postgresql://postgresTransportador:5432/transportador"
+    url: "jdbc:postgresql://postgresTransportador:5434/transportador"
     username: transportador
     password: transportador
 
