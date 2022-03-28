@@ -10,14 +10,13 @@ eureka:
       
 spring:
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
     defer-datasource-initialization: true
     hibernate:
       ddl-auto: update
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: "jdbc:postgresql://postgresTransportador/transportador"
+    url: "jdbc:postgresql://postgresTransportador:5434/transportador"
     username: transportador
     password: transportador
 
