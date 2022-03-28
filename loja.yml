@@ -26,3 +26,5 @@ security:
     resource:
       user-info-uri: http://lojaAuth:8088/user
 
+hystrix:
+  shareSecurityContext: true
